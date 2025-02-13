@@ -1,4 +1,4 @@
-##### by [Abderrahim CHABIR](https://www.linkedin.com/in/abderrahim-chabir-61442a276/) 
+ ##### by [Abderrahim CHABIR](https://www.linkedin.com/in/abderrahim-chabir-61442a276/) 
 
 
 ### **Table of Contents**
@@ -67,7 +67,7 @@ Additionally, i  will **simulate a few attacks** to validate the detection and v
 
 ##### Why use Elasticsearch and kibana ? 
 
-![[elk.png]]
+!["Elastics list"](images/elk.png)
 
 Elastic stack is a software suite used for **collecting, processing, storing, and visualizing data**, often in the context of log management and monitoring. Its name comes from the initials of its three main components:
 	 **Elasticsearch**: A NoSQL database based, designed for fast indexing and searching of large amounts of data. It is ideal for analyzing structured or semi-structured data.
