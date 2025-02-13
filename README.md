@@ -41,7 +41,7 @@ Additionally, i  will **simulate a few attacks** to validate the detection and v
 
 ### Topology:
 
-![[Topology-elk-suricata.png]]
+![Topology](images/Topology-elk-suricata.png)
 
 #### Legend :
 ##### Networks:
@@ -80,17 +80,16 @@ to keep things simple i will  be using filebeat instead of logstash to collect a
 
 we first spin up  a debian virtual machine 
 
-![[debian install.png]]
+![Debian Install](images/debian-install.png)
 
 then we need to configure the network settings to allow the
 machine to connect to the network and the Internet, we will set the ens3 to 10.10.110.20 by modifying the /etc/network/interfaces file
 
-![[3-elk-net-conf.png]]
+![ELK Network Config](images/3-elk-net-conf.png)
 
 we then connect to our ELKStack machine via ssh
 
-![[4-ssh-to-elk.png]]
-
+![SSH to ELK](images/4-ssh-to-elk.png)
 
 ###### ELKstack installation
 
@@ -114,7 +113,7 @@ sudo apt-get update && sudo apt-get install elasticsearch
 
 after the installation is done you will notice that a default password was generated, save it 
 
-![[6-elasti-installed.png]]
+![Elastic Installed](images/6-elasti-installed.png)
 
 
 ###### ELKstack configuration
@@ -123,26 +122,27 @@ now that it has been successfully installed you we can move on to configuring it
 
 we modify `/etc/elasticsearch/elasticsearch.yml` to set up our own server IP address
 
-![[7-elastic-ip-conf.png]]
+![Elastic IP Config](images/7-elastic-ip-conf.png)
 
 for simplicity we will be disabling the ssl verification mode for this lab  therefore `verification_mode` should be set to `none`
 
-![[8-verifnon.png]]
+![SSL Verification None](images/8-verifnon.png)
+
 
 we save the configuration and start the service, then check if everything is running smoothly
 
-![[9-start-elastic.png]]
+![Start Elastic](images/9-start-elastic.png)
 
 everything is running as intended, now we need to generate a token for the kibana_system user 
 
-![[10-kibana-system-user.png]]
+![Kibana System User](images/10-kibana-system-user.png)
 
 ###### Kibana installation
 
 since we already added the elastic signing key all we have to do now is run `sudo apt install kibana` and it will be installed
 
 
-![[11-install-kibana.png]]
+![Install Kibana](images/11-install-kibana.png)
 
 ###### Kibana configuration
 
