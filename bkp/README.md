@@ -236,7 +236,7 @@ add and remove suricata rules without reloading it
 
 ![Rule Engine](images/28-rule-engine.png)
 
-An important thing to consider is that Suricata version 6 and earlier uses`/var/lib/suricata/rules` as rules file instead of `/etc/suricata/rules` we are using version 6, so we need to configure it
+An important thing to consider is that Suricata version 6 and earlier uses`/var/lib/suricata/rules` as rules file instead of `/etc/suricata/rules` we are using version 6, so we need to configure it you dont have to do this is you are have a later version
 
 ![Debian Suricata Version](images/21-deb-ver-6-suricata.png)
 
@@ -339,9 +339,6 @@ we can see the events dashboard which lists all the  network events
 
 we also have the alerts dashboard which shows the alerts logged by suricata, we
 see the alerts that we generated earlier are present 
-
-![Kali Update Log](images/71-kali-update-log.png)
-
 there is also an Auditbeat dashboard in the security section of kibana which visualizes the
 access and authentication logs
 
