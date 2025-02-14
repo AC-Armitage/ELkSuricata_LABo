@@ -3,35 +3,36 @@
 
 ### **Table of Contents**
 
-1. **[Introduction](#introduction)**
-2. **[Topology](#topology)**
-    - [Network Layout](#network-layout)
-    - [Machine Roles](#machine-roles)
-3. **[ELK Stack Setup](#elk-stack-setup)**
-    - [Why Use Elasticsearch and Kibana?](#why-use-elasticsearch-and-kibana)
-    - [Machine Setup](#machine-setup)
-    - [Installation](#elkstack-installation)
-    - [Configuration](#elkstack-configuration)
-    - [Kibana Setup](#kibana-installation-and-configuration)
-4. **[Suricata IDS Setup](#suricata-setup)**
-    - [Why Suricata?](#why-suricata)
-    - [Machine Setup](#suricata-machine-setup)
-    - [Installation](#suricata-installation)
-    - [Configuration](#suricata-configuration)
-    - [Testing Suricata](#testing-suricata)
-5. **[Integrating Suricata with ELK](#integrating-suricata-with-elk)**
-    - [Overview](#brief-explanation)
-    - [Installing Beats](#installing-the-beats)
-    - [Configuring Filebeat](#filebeat-configuration)
-    - [Configuring Auditbeat](#auditbeat-configuration)
-    - [Verifying Logs in Kibana](#visualizing-logs-in-kibana)
-6. **[Attack Simulations](#attack-simulations)**
-    - [Kali Machine Detection](#kali-machine-detection)
-    - [Nmap Scan](#nmap-scan)
-    - [SYN Flood](#syn-flood)
-    - [Tor Traffic](#tor-traffic)
-7. **[Conclusion](#conclusion)**
 
+1. [Introduction](#introduction)
+2. [Topology](#topology)
+    - [Networks](#networks)
+    - [Machines](#machines)
+3. [Set up](#set-up)
+    - [ELKStack](#elkstack)
+        - [Why use Elasticsearch and kibana?](#why-use-elasticsearch-and-kibana)
+        - [Machine setup](#machine-setup)
+        - [ELKstack installation](#elkstack-installation)
+        - [ELKstack configuration](#elkstack-configuration)
+        - [Kibana installation](#kibana-installation)
+        - [Kibana configuration](#kibana-configuration)
+    - [Suricata](#suricata)
+        - [Why Suricata](#why-suricata)
+        - [Machine setup](#suricata-machine-setup)
+        - [Suricata installation](#suricata-installation)
+        - [Suricata configuration](#suricata-configuration)
+4. [Integrating suricata and elasticsearch](#integrating-suricata-and-elasticsearch)
+    - [Brief explanation](#brief-explanation)
+    - [Installing the beats](#installing-the-beats)
+    - [Filebeat configuration](#filebeat-configuration)
+    - [Auditbeat Configuration](#auditbeat-configuration)
+    - [Visualizing logs in Kibana](#visualizing-logs-in-kibana)
+5. [Attack simulations](#attack-simulations)
+    - [Nmap scan](#nmap-scan)
+    - [SYN flood](#syn-flood)
+    - [Tor traffic](#tor-traffic)
+6. [Conclusion](#conclusion)
+   
 ---
 ### Introduction:
 
