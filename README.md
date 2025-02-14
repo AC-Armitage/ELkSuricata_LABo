@@ -20,7 +20,6 @@
         - [Suricata installation](#suricata-installation)
         - [Suricata configuration](#suricata-configuration)
 4. [Integrating suricata and elasticsearch](#integrating-suricata-and-elasticsearch)
-    - [Brief explanation](#brief-explanation)
     - [Installing the beats](#installing-the-beats)
     - [Filebeat configuration](#filebeat-configuration)
     - [Auditbeat Configuration](#auditbeat-configuration)
