@@ -30,7 +30,7 @@
     - [Nmap Scan](#nmap-scan)
     - [SYN Flood](#syn-flood)
     - [Tor Traffic](#tor-traffic)
-7. **[Conclusion](#Conclusion)**
+7. **[Conclusion](#conclusion)**
 
 ---
 ### Introduction:
