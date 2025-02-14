@@ -33,9 +33,7 @@
 ---
 ### Introduction:
 
-In this lab, i  will walk through the setup and configuration of **Suricata** as an **Intrusion Detection System (IDS)**, integrated with an **Elastic Stack (Elasticsearch & Kibana)** to create a complete solution for detecting and visualizing network anomalies.
-Our goal is to build an environment capable of **collecting, analyzing, and visualizing network traffic logs** efficiently. To simulate the network topology, i will use **GNS3**, providing a flexible and realistic testbed.
-Additionally, i  will **simulate a few attacks** to validate the detection and visualization capabilities of our setup.
+This lab outlines the deployment and configuration of Suricata as an Intrusion Detection System (IDS), integrated with the Elastic Stack (Elasticsearch, Kibana) to establish a security analytics platform for detecting, analyzing, and visualizing network anomalies. The goal is to create an environment capable of real-time network traffic monitoring, log aggregation, and threat detection, with a focus on streamlining incident response workflows. the folowing lab uses GNS3 to simulate our enviroment, finnaly we are going to demonsrate some attacks (e.g., port scanning, DDoS attempts) to validate the efficacy of the Suricata-Elastic integration
 
 ### Topology:
 
